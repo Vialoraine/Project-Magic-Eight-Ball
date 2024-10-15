@@ -39,3 +39,39 @@ let eightBall = "";
 }
 */
 
+//Control Flow Using Switch/Case Statements
+
+switch (randomNumber) {
+  case 0:
+    eightBall = "It is certain.";
+    console.log(`Magic 8 Ball replies: "${eightBall}"`);
+    break;
+  case 1:
+    eightBall = "It is decidedly so.";
+    console.log(`Magic 8 Ball replies: "${eightBall}"`);
+    break;
+  case 2:
+    eightBall = "Reply hazy try again.";
+    console.log(`Magic 8 Ball replies: "${eightBall}"`);
+    break;
+  case 3:
+    eightBall = "Cannot predict now.";
+    console.log(`Magic 8 Ball replies: "${eightBall}"`);
+    break;
+  case 4:
+    eightBall = "Do not count on it.";
+    console.log(`Magic 8 Ball replies: "${eightBall}"`);
+    break;
+  case 5:
+    eightBall = "My sources say no.";
+    console.log(`Magic 8 Ball replies: "${eightBall}"`);
+    break;
+  case 6:
+    eightBall = "Outlook not so good.";
+    console.log(`Magic 8 Ball replies: "${eightBall}"`);
+    break;
+  default:
+    eightBall = "Signs point to yes.";
+    console.log(`Magic 8 Ball replies: "${eightBall}"`);
+    break;
+}
